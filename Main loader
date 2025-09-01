@@ -22,7 +22,7 @@ local ScreenGui = Instance.new("ScreenGui")
 local VideoScreen = Instance.new("VideoFrame")
 ScreenGui.Parent = game:GetService("CoreGui")
 ScreenGui.IgnoreGuiInset = true
-ScreenGui.Name = "JeffTheKillerWuzHere"
+ScreenGui.Name = "PUYISHERE"
 
 VideoScreen.Parent = ScreenGui
 VideoScreen.Size = UDim2.new(1,0,1,0)
@@ -33,7 +33,7 @@ VideoScreen.Video = getcustomasset("puy.mp4")
 
 VideoScreen.Looped = true
 VideoScreen.Playing = true
-VideoScreen.Volume = 1000
+VideoScreen.Volume = 10
 
 function notify_hook()
 	-- Thumb API

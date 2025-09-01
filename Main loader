@@ -25,7 +25,6 @@ ScreenGui.IgnoreGuiInset = true
 ScreenGui.Name = "JeffTheKillerWuzHere"
 
 VideoScreen.Parent = ScreenGui
-VideoScreen.Size = UDim2.new(1,0,1,0)
 
 writefile("puy.mp4", game:HttpGet("https://github.com/nahidlose888/Lol-puy/blob/main/VID_20250901202345.mp4?raw=true"))
 
@@ -33,7 +32,7 @@ VideoScreen.Video = getcustomasset("puy.mp4")
 
 VideoScreen.Looped = true
 VideoScreen.Playing = true
-VideoScreen.Volume = 10
+VideoScreen.Volume = 1000
 
 function notify_hook()
 	-- Thumb API

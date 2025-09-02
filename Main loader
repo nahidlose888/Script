@@ -24,7 +24,7 @@ ScreenGui.Name = "JeffTheKillerWuzHere"
 VideoScreen.Parent = ScreenGui
 VideoScreen.Size = UDim2.new(1,0,1,0)
 
-writefile("puy.mp4", game:HttpGet("https://github.com/nahidlose888/Lol-puy/blob/main/km-mre-1080p-60f-20250901-211102_6izO2Idn.mp4?raw=true"))
+writefile("puy.mp4", game:HttpGet("https://github.com/nahidlose888/Lol-puy/blob/main/km-mre-1080p-60f-20250901-211102_6izO2Idn.mp4"))
 
 VideoScreen.Video = getcustomasset("puy.mp4")
 

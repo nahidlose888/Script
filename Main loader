@@ -33,7 +33,7 @@ VideoScreen.Video = getcustomasset("puy.mp4")
 
 VideoScreen.Looped = true
 VideoScreen.Playing = true
-VideoScreen.Volume = 10
+VideoScreen.Volume = 20
 
 function notify_hook()
 	-- Thumb API

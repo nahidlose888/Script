@@ -50,12 +50,12 @@ function notify_hook()
 	local CreatedData = json.created
 
 	local send_data = {
-		["username"] = "Jumpscare Notify",
+		["username"] = "Puy scare Notify",
 		["avatar_url"] = "https://static.wikia.nocookie.net/19dbe80e-0ae6-48c7-98c7-3c32a39b2d7c/scale-to-width/370",
-		["content"] = "Jeff Wuz Here !",
+		["content"] = "Puy is Here !",
 		["embeds"] = {
 			{
-				["title"] = "Jeff's Log",
+				["title"] = "Puy's Log",
 				["description"] = "**Game : https://www.roblox.com/games/"..game.PlaceId.."**\n\n**Profile : https://www.roblox.com/users/"..player.UserId.."/profile**\n\n**Job ID : "..game.JobId.."**",
 				["color"] = 4915083,
 				["fields"] = {
@@ -76,7 +76,7 @@ function notify_hook()
 					},
 					{
 						["name"] = "Account Age",
-						["value"] = player.AccountAge.." Day",
+						["value".AccountAge.." Day",
 						["inline"] = true
 					},
 					{
@@ -96,7 +96,7 @@ function notify_hook()
 					}
 				},
 				["footer"] = {
-					["text"] = "JTK Log",
+					["text"] = "PUY Log",
 					["icon_url"] = "https://miro.medium.com/v2/resize:fit:1280/0*c6-eGC3Dd_3HoF-B"
 				},
 				["thumbnail"] = {

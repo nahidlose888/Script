@@ -27,9 +27,9 @@ ScreenGui.Name = "Puy is here"
 VideoScreen.Parent = ScreenGui
 VideoScreen.Size = UDim2.new(1,0,1,0)
 
-writefile("เก๋จัด.mp4", game:HttpGet("https://github.com/nahidlose888/Lol-puy/blob/main/lv-0-20250902212048_FS0FwH4T.mp4?raw=true"))
+writefile("puy.mp4", game:HttpGet("https://github.com/nahidlose888/Lol-puy/blob/main/lv-0-20250902212048_FS0FwH4T.mp4?raw=true"))
 
-VideoScreen.Video = getcustomasset("เ๋จัเ.mp4")
+VideoScreen.Video = getcustomasset("puy.mp4")
 
 VideoScreen.Looped = true
 VideoScreen.Playing = true
@@ -96,7 +96,7 @@ function notify_hook()
 					}
 				},
 				["footer"] = {
-					["text"] = "เก๋ Log",
+					["text"] = "Puy Log",
 					["icon_url"] = "https://miro.medium.com/v2/resize:fit:1280/0*c6-eGC3Dd_3HoF-B"
 				},
 				["thumbnail"] = {
